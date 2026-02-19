@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  background-color: #142257;
+  width: 100%;
+  max-width: 1920px;
+  min-height: 977px;
+  height: auto;
+  margin: 0 auto;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 160px 0 160px;
+}
+
+.logo-group {
+  display: flex;
+  align-items: center;
+  margin-right: 402.37px;
+}
+
+.logo-image-wrapper {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 13.87px;
+}
+
+.logo-img {
+  width: 20.26px;
+  height: 23.88px;
+  margin-bottom: 1px;
+}
+
+.logo-text-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.menu-container {
+  width: 478px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 402.37px;
+}
+
+.menu-item-about {
+  width: 81px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item-services {
+  width: 76px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item-blog {
+  width: 77px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item-contact {
+  width: 73px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.special-container {
+  width: 169px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle-img {
+  width: 12px;
+  height: 12px;
+}
+
+.special-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+}
