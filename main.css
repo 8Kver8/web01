@@ -1,18 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
+* {
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #142257;
-  width: 100%;
-  max-width: 1920px;
-  min-height: 977px;
-  height: auto;
+  width: 1920px;
+  height: 977px;
   margin: 0 auto;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .navbar {
   height: 80px;
-  width: 100%;
+  width: 1920px;
   display: flex;
   align-items: center;
 }
@@ -20,14 +23,16 @@ body {
 .nav-container {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 1920px;
   height: 100%;
-  padding: 0 160px 0 160px;
+  padding: 0 160px;
 }
 
 .logo-group {
   display: flex;
   align-items: center;
+  width: 148.26px;
+  height: 32px;
   margin-right: 402.37px;
 }
 
@@ -37,18 +42,19 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-right: 13.87px;
 }
 
 .logo-img {
   width: 20.26px;
   height: 23.88px;
-  margin-bottom: 1px;
 }
 
 .logo-text-wrapper {
   display: flex;
   align-items: center;
+  width: 116.26px;
+  height: 32px;
+  justify-content: flex-end;
 }
 
 .logo-text {
@@ -117,8 +123,12 @@ body {
 }
 
 .special-text {
+  width: 147px;
+  height: 24px;
   color: white;
   font-size: 18px;
   font-weight: 700;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
