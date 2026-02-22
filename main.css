@@ -6,11 +6,12 @@
 }
 
 body {
+  position: relative;
   background-color: #142257;
   width: 1920px;
   height: 977px;
   margin: 0 auto;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Plus Jakarta Sans";
 }
 
 .navbar {
@@ -131,4 +132,41 @@ body {
   white-space: nowrap;
   display: flex;
   align-items: center;
+}
+
+.person-left {
+  position: absolute;
+  left: 16px;
+  top: 80px;
+  width: 412px;
+  height: 836px;
+}
+
+.person-right {
+  position: absolute;
+  right: 16px;
+  top: 80px;
+  width: 414px;
+  height: 836px;
+}
+
+.services-row {
+  position: absolute;
+  top: 242px;
+  left: 731.5px;
+  width: 457px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9ea3b5;
+  font-weight: 700;
+}
+
+.services-row span {
+  font-size: 20px;
+}
+
+.services-row .dot {
+  font-size: 16px;
 }
