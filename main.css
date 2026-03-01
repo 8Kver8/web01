@@ -170,3 +170,244 @@ body {
 .services-row .dot {
   font-size: 16px;
 }
+
+.headline {
+  position: absolute;
+  top: 294px;
+  left: 623.5px;
+  width: 673px;
+  height: 228px;
+  color: white;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 76px;
+}
+
+.features {
+  position: absolute;
+  top: 546px;
+  left: 725.5px;
+  width: 469px;
+  height: 32px;
+  color: #15b2f5;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+
+.check-mark {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.button-1 {
+  position: absolute;
+  top: 626px;
+  left: 843.5px;
+  width: 233px;
+  height: 64px;
+  border-radius: 60px;
+  background-color: #15b2f5;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 8px;
+  font-family: "Plus Jakarta Sans";
+}
+
+.phone-icon {
+  width: 48px;
+  height: 48px;
+  margin-left: 16px;
+}
+
+.stats {
+  position: absolute;
+  top: 842px;
+  left: 479px;
+  width: 962px;
+  height: 48px;
+  display: flex;
+}
+
+.stat-item {
+  display: flex;
+}
+
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+  margin-left: 32px;
+}
+
+.stat-label {
+  font-size: 18px;
+  color: white;
+  line-height: 24px;
+  margin-right: 32px;
+  white-space: nowrap;
+}
+
+/* Градиентная линия */
+.stat-item:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #4f66b7 50%,
+    transparent 100%
+  );
+}
+
+.left-panel {
+  position: absolute;
+  top: 932px;
+  width: 481.5px;
+  height: 45px;
+}
+
+.right-panel {
+  position: absolute;
+  top: 932px;
+  left: 1436px;
+  width: 485px;
+  height: 45px;
+}
+
+.white-section {
+  width: 1920px;
+  height: 887px;
+  background-color: #ffffff;
+  position: relative; /* важно: чтобы дети позиционировались относительно этой секции */
+  top: 897px;
+}
+
+.blue-roof {
+  position: absolute;
+  top: 123px; /* отступ сверху внутри белой секции */
+  left: 960px; /* отступ слева внутри белой секции */
+  width: 712px;
+  height: 700px;
+}
+
+.white-section-title {
+  position: absolute;
+  width: 557px;
+  top: 223px;
+  left: 240px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #171921;
+}
+
+.white-section-description {
+  position: absolute;
+  width: 557px;
+  top: 375px;
+  left: 240px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #545971;
+}
+
+.services-list {
+  position: absolute;
+  display: flex;
+  gap: 57px; /* расстояние между колонками */
+  top: 515px;
+  left: 240px;
+}
+
+.services-column-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px; /* расстояние между строками */
+  width: 259px;
+}
+
+.services-column-right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px; /* расстояние между строками */
+  width: 245px;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1f3584;
+  line-height: 28px;
+}
+
+.service-check {
+  width: 16px;
+  height: 16px;
+}
+
+.contact-banner {
+  position: absolute;
+  padding: 12px 32px;
+  background-color: #15b2f5;
+  border-radius: 24px;
+  top: 719px;
+  left: 240px;
+}
+
+.contact-text {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.contact-phone {
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.white-section-2 {
+  width: 1920px;
+  height: 940px;
+  background-color: #ffffff;
+  position: relative;
+  top: 887px;
+}
+
+.services-heading {
+  position: absolute;
+  top: 120px;
+  left: 798.5px;
+  font-size: 52px;
+  font-weight: 700;
+  color: #171921;
+}
+
+.services-description {
+  position: absolute;
+  width: 552px;
+  height: 56px;
+  top: 208px;
+  left: 684px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #545971;
+  text-align: center;
+}
