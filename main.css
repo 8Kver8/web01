@@ -588,3 +588,71 @@ body {
     transparent 100%
   );
 }
+
+.section-5 {
+  width: 1920px;
+  height: 932px;
+  background-color: #ffffff;
+  position: relative;
+  top: 887px;
+}
+
+.section-5 .worker {
+  position: absolute;
+  width: 716px;
+  height: 618px;
+  top: 158px;
+  left: 155px;
+}
+
+.section-5 .title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 64px;
+  width: 395px;
+  top: 158px;
+  left: 968px;
+}
+
+.points-grid {
+  position: absolute;
+  top: 346px;
+  left: 968px;
+  width: 696px;
+  height: 356px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 52px;
+}
+
+.points-card {
+  width: 696px;
+  height: 84px;
+  position: relative;
+}
+
+.points-card .digit {
+  position: absolute;
+  color: #9ea3b5;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.points-card .points-title {
+  position: absolute;
+  left: 65px;
+  font-weight: 700;
+  font-size: 24px;
+  width: 164px;
+}
+
+.points-card .points-text {
+  position: absolute;
+  left: 265px;
+  width: 420px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #9ea3b5;
+}
