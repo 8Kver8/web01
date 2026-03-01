@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap");
 
 * {
   flex-shrink: 0;
@@ -11,7 +11,7 @@ body {
   width: 1920px;
   height: 977px;
   margin: 0 auto;
-  font-family: "Plus Jakarta Sans";
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .navbar {
@@ -72,34 +72,6 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-right: 402.37px;
-}
-
-.menu-item-about {
-  width: 81px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-}
-
-.menu-item-services {
-  width: 76px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-}
-
-.menu-item-blog {
-  width: 77px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-}
-
-.menu-item-contact {
-  width: 73px;
-  height: 24px;
-  display: flex;
-  align-items: center;
 }
 
 .menu-link {
@@ -222,7 +194,7 @@ body {
   align-items: center;
   padding-left: 24px;
   padding-right: 8px;
-  font-family: "Plus Jakarta Sans";
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .phone-icon {
@@ -242,6 +214,22 @@ body {
 
 .stat-item {
   display: flex;
+  position: relative;
+}
+
+.stat-item:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #4f66b7 50%,
+    transparent 100%
+  );
 }
 
 .stat-icon {
@@ -257,21 +245,6 @@ body {
   line-height: 24px;
   margin-right: 32px;
   white-space: nowrap;
-}
-
-/* Градиентная линия */
-.stat-item:not(:first-child)::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    #4f66b7 50%,
-    transparent 100%
-  );
 }
 
 .left-panel {
@@ -293,14 +266,14 @@ body {
   width: 1920px;
   height: 887px;
   background-color: #ffffff;
-  position: relative; /* важно: чтобы дети позиционировались относительно этой секции */
+  position: relative;
   top: 897px;
 }
 
 .blue-roof {
   position: absolute;
-  top: 123px; /* отступ сверху внутри белой секции */
-  left: 960px; /* отступ слева внутри белой секции */
+  top: 123px;
+  left: 960px;
   width: 712px;
   height: 700px;
 }
@@ -329,7 +302,7 @@ body {
 .services-list {
   position: absolute;
   display: flex;
-  gap: 57px; /* расстояние между колонками */
+  gap: 57px;
   top: 515px;
   left: 240px;
 }
@@ -337,14 +310,14 @@ body {
 .services-column-left {
   display: flex;
   flex-direction: column;
-  gap: 32px; /* расстояние между строками */
+  gap: 32px;
   width: 259px;
 }
 
 .services-column-right {
   display: flex;
   flex-direction: column;
-  gap: 32px; /* расстояние между строками */
+  gap: 32px;
   width: 245px;
 }
 
@@ -410,4 +383,208 @@ body {
   line-height: 28px;
   color: #545971;
   text-align: center;
+}
+
+.services-grid {
+  position: absolute;
+  top: 324px;
+  left: 240px;
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 360px;
+  height: 244px;
+  position: relative;
+}
+
+.service-card img {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 64px;
+  height: 64px;
+}
+
+.service-card .service-title {
+  position: absolute;
+  top: 112px;
+  left: 32px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.service-card .service-text {
+  position: absolute;
+  top: 156px;
+  left: 32px;
+  width: 296px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #545971;
+}
+
+.service-card-blue {
+  width: 360px;
+  height: 252px;
+  background-color: #15b2f5;
+  border-radius: 24px;
+  position: relative;
+}
+
+.service-card-blue .blue-title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  width: 296px;
+  height: 32px;
+  top: 32px;
+  left: 32px;
+}
+
+.service-card-blue .blue-text {
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  width: 296px;
+  height: 56px;
+  top: 68px;
+  left: 32px;
+}
+
+.service-card-blue .white-button {
+  position: absolute;
+  width: 296px;
+  height: 64px;
+  border-radius: 60px;
+  background-color: #ffffff;
+  border: none;
+  font-weight: 700;
+  font-size: 24px;
+  color: #15b2f5;
+  top: 156px;
+  left: 32px;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.section-4 {
+  width: 1920px;
+  height: 932px;
+  background-color: #ffffff;
+  position: relative;
+  top: 887px;
+}
+
+.section-4 .dark-blue-container {
+  position: absolute;
+  top: 26px;
+  left: 60px;
+  width: 1800px;
+  height: 880px;
+  background-color: #142257;
+  border-radius: 24px;
+}
+
+.section-4 .left-panel-4 {
+  position: absolute;
+  top: 143px;
+  left: 48px;
+  width: 45px;
+  height: 645px;
+  z-index: 1;
+}
+
+.section-4 .right-panel-4 {
+  position: absolute;
+  top: 143px;
+  right: 48px;
+  width: 45px;
+  height: 645px;
+  z-index: 1;
+}
+
+.section-4 .blue-title-large {
+  position: absolute;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 64px;
+  color: #ffffff;
+  width: 747px;
+  top: 64px;
+  left: 180px;
+}
+
+.section-4 .blue-text-small {
+  position: absolute;
+  font-size: 18px;
+  line-height: 28px;
+  color: #9ea3b5;
+  width: 613px;
+  top: 108px;
+  left: 1007px;
+}
+
+.advantages-grid {
+  position: absolute;
+  top: 312px;
+  left: 180px;
+  width: 1440px;
+  height: 504px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 184px;
+}
+
+.advantages-card {
+  width: 628px;
+  height: 128px;
+  position: relative;
+}
+
+.advantages-card img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.advantages-card .advantages-title {
+  position: absolute;
+  left: 132px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.advantages-card .advantages-text {
+  position: absolute;
+  top: 44px;
+  left: 132px;
+  width: 496px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #9ea3b5;
+}
+
+.section-4 .gradient-line {
+  position: absolute;
+  top: 252px;
+  left: 180px;
+  width: 1440px;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #4e65b6 50%,
+    transparent 100%
+  );
 }
