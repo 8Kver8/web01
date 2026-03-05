@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 * {
   flex-shrink: 0;
@@ -615,7 +616,7 @@ body {
   left: 968px;
 }
 
-.points-grid {
+.section-5 .points-grid {
   position: absolute;
   top: 346px;
   left: 968px;
@@ -626,20 +627,20 @@ body {
   gap: 52px;
 }
 
-.points-card {
+.section-5 .points-card {
   width: 696px;
   height: 84px;
   position: relative;
 }
 
-.points-card .digit {
+.section-5 .points-card .digit {
   position: absolute;
   color: #9ea3b5;
   font-size: 52px;
   font-weight: 700;
 }
 
-.points-card .points-title {
+.section-5 .points-card .points-title {
   position: absolute;
   left: 65px;
   font-weight: 700;
@@ -647,7 +648,7 @@ body {
   width: 164px;
 }
 
-.points-card .points-text {
+.section-5 .points-card .points-text {
   position: absolute;
   left: 265px;
   width: 420px;
@@ -655,4 +656,311 @@ body {
   font-size: 18px;
   line-height: 28px;
   color: #9ea3b5;
+}
+
+.section-6 {
+  width: 1920px;
+  height: 932px;
+  background-color: #ffffff;
+  position: relative;
+  top: 887px;
+}
+
+.section-6 .title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 64px;
+  width: 650px;
+  top: 131px;
+  left: 634.61px;
+  text-align: center;
+}
+
+.section-6 .trustpilot {
+  position: absolute;
+  width: 206.89px;
+  height: 56px;
+  top: 349px;
+  left: 856.16px;
+}
+
+.section-6 .gradient-line {
+  position: absolute;
+  top: 428px;
+  left: 466.61px;
+  width: 986px;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #cbcfdb 50%,
+    transparent 100%
+  );
+}
+
+.section-6 .text {
+  position: absolute;
+  font-size: 20px;
+  line-height: 32px;
+  width: 728px;
+  top: 470px;
+  left: 595.61px;
+  text-align: center;
+  color: #545971;
+}
+
+.section-6 .kende-attila {
+  position: absolute;
+  width: 76px;
+  height: 76x;
+  top: 606px;
+  left: 815.61px;
+}
+
+.section-6 .name {
+  position: absolute;
+  font-size: 20px;
+  width: 143px;
+  font-weight: 700;
+  top: 606px;
+  left: 923.61px;
+}
+
+.section-6 .stars-container {
+  display: flex;
+  position: absolute;
+  top: 646px;
+  left: 923.61px;
+}
+
+.section-6 .yellow-star,
+.section-6 .grey-star {
+  width: 36px;
+  height: 36px;
+}
+
+.section-7 {
+  width: 1920px;
+  height: 1080px;
+  background-color: #ffffff;
+  position: relative;
+  top: 887px;
+}
+
+.section-7 .title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 64px;
+  width: 694px;
+  top: 84px;
+  left: 613px;
+}
+
+.section-7 .text {
+  position: absolute;
+  font-size: 24px;
+  line-height: 36px;
+  width: 694px;
+  top: 172px;
+  left: 613px;
+  text-align: center;
+  color: #545971;
+}
+
+.section-7 .blog-grid {
+  position: absolute;
+  top: 300px;
+  left: 240px;
+  width: 1440px;
+  height: 608px;
+  display: flex;
+  gap: 48px;
+}
+
+.section-7 .blog-card {
+  width: 448px;
+  height: 608px;
+  position: relative;
+}
+
+.section-7 .blog-card .img {
+  position: absolute;
+  width: 448px;
+  height: 300px;
+}
+
+.section-7 .blog-card .blog-data {
+  position: absolute;
+  top: 324px;
+  font-size: 18px;
+  width: 97px;
+  color: #545971;
+}
+
+.section-7 .blog-card .blog-title {
+  position: absolute;
+  top: 368px;
+  font-weight: 700;
+  font-size: 32px;
+  width: 448px;
+  line-height: 40px;
+}
+
+.section-7 .blog-card .blog-text {
+  position: absolute;
+  width: 449px;
+  height: 84px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #545971;
+  top: 464px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.section-7 .blog-card .blog-features-1 {
+  position: absolute;
+  width: 96px;
+  height: 36px;
+  top: 572px;
+  border-radius: 999px;
+  background-color: #f3f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-7 .blog-card .blog-features-2 {
+  position: absolute;
+  width: 118px;
+  height: 36px;
+  top: 572px;
+  left: 108px;
+  border-radius: 999px;
+  background-color: #f3f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-7 .blog-card .blog-features-3 {
+  position: absolute;
+  width: 120px;
+  height: 36px;
+  top: 572px;
+  left: 238px;
+  border-radius: 999px;
+  background-color: #f3f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-7 .button {
+  position: absolute;
+  left: 884px;
+  top: 964px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: auto;
+}
+
+.section-7 .button .view-more {
+  color: #15b2f5;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-7 .button .chevron-right {
+  width: 24px;
+  height: 24px;
+}
+
+.section-8 {
+  width: 1920px;
+  height: 932px;
+  background-color: #ffffff;
+  position: relative;
+  top: 887px;
+}
+
+.section-8 .title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 64px;
+  width: 469px;
+  top: 190px;
+  left: 240px;
+}
+
+.section-8 .text {
+  position: absolute;
+  font-size: 20px;
+  top: 342px;
+  left: 240px;
+}
+
+.section-8 .link {
+  position: absolute;
+  font-weight: 700;
+  font-size: 24px;
+  top: 340px;
+  left: 394px;
+  text-decoration: underline;
+  color: #15b2f5;
+  cursor: pointer;
+}
+
+.section-8 .faq-container {
+  position: absolute;
+  width: 833px;
+  top: 190px;
+  left: 847px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-8 .faq-container .faq-card-with-answer {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #f3f5f9;
+  border-radius: 12px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-8 .faq-container .faq-card-with-answer .q {
+  font-weight: 700;
+  font-size: 24px;
+  color: #545971;
+}
+
+.section-8 .faq-container .faq-card-with-answer .a {
+  font-size: 16px;
+  color: #737373;
+  line-height: 24px;
+}
+
+.section-8 .faq-container .faq-card-question {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.section-8 .faq-container .faq-card-question .q {
+  font-weight: 700;
+  font-size: 24px;
+  color: #545971;
 }
